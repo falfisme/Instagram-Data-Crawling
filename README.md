@@ -1,2 +1,5 @@
 # Instagram-Data-Crawling
-Ini adalah Projek tentang pengambilan data instagram otomatis yang dapat anda Projek ini bertujuan untuk memenuhi tugas PKB
+Hello Everyone! Ini adalah Projek tentang pengambilan data instagram otomatis mengenai banyaknya jumlah like, caption, comment, hashtag dan mention profile pengguna yang disebut dari setiap postingan instagram seseorang. Projek ini bertujuan untuk memenuhi tugas matakuliah PKB saya yang ngulang.
+
+
+
