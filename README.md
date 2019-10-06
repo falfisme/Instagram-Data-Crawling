@@ -1,8 +1,9 @@
+![image](https://d1afx9quaogywf.cloudfront.net/sites/default/files/Logos/Instagram400x230.png)
 # Instagram-Data-Crawling
 Hello Everyone! Ini adalah Projek tentang pengambilan data instagram otomatis mengenai banyaknya jumlah like, caption, comment, hashtag dan mention profile pengguna yang disebut dari setiap postingan instagram seseorang. Projek ini bertujuan untuk memenuhi tugas matakuliah PKB saya yang ngulang.
 
 
-### Requirement Tools
+### Requirement
 
 Sebelum menggunakan ini, sebaiknya anda menginstall beberapa tools yang saya gunakan terlebih dahulu
 - Python 3 keatas (karena program ini menggunakan Python) -> [Website Python](https://www.python.org/)
