@@ -1,6 +1,7 @@
 # Instagram-Data-Crawling
-![image](https://i.dailymail.co.uk/1s/2019/03/29/22/11638884-0-image-a-49_1553897624253.jpg)
-
+<p align="center">
+ ![image](https://i.dailymail.co.uk/1s/2019/03/29/22/11638884-0-image-a-49_1553897624253.jpg)
+</p>
 Hello Everyone! Ini adalah Projek tentang pengambilan data instagram otomatis mengenai banyaknya jumlah like, caption, comment, hashtag dan mention profile pengguna yang disebut dari setiap postingan instagram seseorang. Projek ini bertujuan untuk memenuhi tugas matakuliah PKB saya yang ngulang.
 
 
