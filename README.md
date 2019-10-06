@@ -89,3 +89,7 @@ Berikut contoh outputnya:
 ```
 
 ### Terimakasih, dan Selamat Mencoba!
+
+Kelompok :
+- Faqihuddin Al Farisi : 1313617025
+- Wisnu Aji : 1313617027
