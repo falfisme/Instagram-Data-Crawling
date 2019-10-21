@@ -88,7 +88,7 @@ Berikut contoh outputnya:
     },
 ```
 
-### UPDATE IN BRANCH 2
+# UPDATE IN BRANCH 2
 
 ## 1.	Scrap until level 2 followers
 
@@ -99,9 +99,7 @@ Lalu, kita menggunakan semua data follower dari level 1 friend untuk diambil sem
 Kami membuat 3 function untuk menjalankannya. Yang pertama fungsi untuk friend level 1 ```def follower1()``` dengan parameter list follower friend level 1, friend level 2 ```def follower2()``` dan program inti ```def inti()``` berguna untuk mengambil datanya. Bisa dicek pada program kami di ```start.py```
 
 ## 2.	Do some statistical task from fetched data, explain what are the tasks
-Kami berhasil membuat program yaitu “Mengecek postingan terbanyak dalam satu network pertahunnya”. Misalnya akun ```‘A’``` mengupload ke Instagram di tahun 2019 sebanyak 15 kali. Dan akun ```‘B’``` hanya 2 kali. Maka yang akan ditampilkan adalah akun ‘A’ dan banyaknya jumlah postingan itu. Contoh:
-
-
+Kami berhasil membuat program yaitu “Mengecek postingan terbanyak dalam satu network pertahunnya”. Misalnya akun ```‘A’``` mengupload ke Instagram di tahun 2019 sebanyak 15 kali. Dan akun ```‘B’``` hanya 2 kali. Maka yang akan ditampilkan adalah akun ‘A’ dan banyaknya jumlah postingan itu.
  
 
 ## 3.	Saving & Querying to MongoDB
