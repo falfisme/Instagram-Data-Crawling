@@ -123,7 +123,7 @@ def fetch_caption(browser, dict_post):
             if element.text not in ['Verified',''] and 'caption' not in dict_post:
                 dict_post["caption"] = element.text
 
-        fetch_mentions(dict_post.get("caption",""), dict_post)
+        #fetch_mentions(dict_post.get("caption",""), dict_post)
         fetch_hashtags(dict_post.get("caption",""), dict_post)
 
 
@@ -159,8 +159,8 @@ def fetch_comments(browser, dict_post):
 
         comment_obj = {"author": author, "comment": comment}
 
-        fetch_mentions(comment, comment_obj)
-        fetch_hashtags(comment, comment_obj)
+        #fetch_mentions(comment, comment_obj)
+        #fetch_hashtags(comment, comment_obj)
 
         comments.append(comment_obj)
 
@@ -184,12 +184,12 @@ def fetch_details(browser, dict_post):
     browser.open_new_tab(dict_post["key"])
 
     username = browser.find_one("a.FPmhX")
-    location = browser.find_one("a.O4GlU")
+    #location = browser.find_one("a.O4GlU")
 
     if username:
         dict_post["username"] = username.text
-    if location:
-        dict_post["location"] = location.text
+    # if location:
+    #     dict_post["location"] = location.text
 
     fetch_initial_comment(browser, dict_post)
 

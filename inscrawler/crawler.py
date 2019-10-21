@@ -62,6 +62,8 @@ class Logging(object):
 class InsCrawler(Logging):
     URL = "https://www.instagram.com"
     RETRY_LIMIT = 999999999999
+    nomer = 0
+    apakah_private = False
 
     def __init__(self, has_screen=False):
         super(InsCrawler, self).__init__()
@@ -101,6 +103,7 @@ class InsCrawler(Logging):
         photo = browser.find_one("._6q-tv")
         statistics = [ele.text for ele in browser.find(".g47SY")]
         post_num, follower_num, following_num = statistics
+
         return {
             "name": name.text,
             "desc": desc.text if desc else None,
@@ -109,6 +112,7 @@ class InsCrawler(Logging):
             "follower_num": follower_num,
             "following_num": following_num,
         }
+
 
     def get_user_profile_from_script_shared_data(self, username):
         browser = self.browser
@@ -135,6 +139,9 @@ class InsCrawler(Logging):
         user_profile = self.get_user_profile(username)
         if not number:
             number = instagram_int(user_profile["post_num"])
+            nomer = number
+            if number == 0 :
+                return None  
 
         self._dismiss_login_prompt()
 
